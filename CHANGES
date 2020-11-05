@@ -1,0 +1,468 @@
+==================================================
+Changes from 2020-10-22 00:00:00 +0000 to present.
+==================================================
+
+-----------------------------------------
+version 0.22 at 2020-11-05 11:55:23 +0000
+-----------------------------------------
+
+  Change: f12630f729bdb2f6c1b3beea656a7feff010822e
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-11-05 13:55:10 +0000
+
+    add Git::CommitBuild plugin 
+
+  Change: d5e6f4498a8de8f10e3c5a031520d301d6479849
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-11-04 17:19:17 +0000
+
+    bumped version 
+
+  Change: 8599d96aedf2431cf4f20d410d5949ad3b6e299b
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-11-04 17:13:12 +0000
+
+    bump version 
+
+  Change: 0544e570e03a644b1eba133453a29f9b6acac6e0
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-11-04 17:04:41 +0000
+
+    Merge branch 'rabbiveesh/service_account' of
+    https://github.com/rabbiveesh/WebService-GoogleAPI-Client into
+    rabbiveesh/service_account 
+
+  Change: 31a27c22aea764c8959e0aedac6acc1c065c1533
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-11-04 17:04:19 +0000
+
+    fix up tests which depended on outside sources 
+
+  Change: 486083192b121708fe6e098dddb43a8578f961b2
+  Author: Veesh Goldman <veesh@edumuch.com>
+  Date : 2020-08-05 19:46:50 +0000
+
+    updated gitignore to allow .yath.user.rc for testing w/ real creds
+    started fixing brace style in client-userAgent 
+
+  Change: 6e6ab1776cae4633da38dc5ffcac4eb8e5f255c1
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-05-27 18:10:48 +0000
+
+    continuing this sweet refactor almost done with Client::Discovery! 
+
+  Change: 080f4e17ac63d500cdbc1c442b927ac768d5e6c5
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-05-27 15:54:34 +0000
+
+    cleaned up code (A LOT!) removed (as far as I know) our currently
+    deprecated methods 
+
+  Change: ba67806035a2ac9cc907a840b04a33c228fa70d4
+  Author: Veesh Goldman <rabbiveesh@gmail.com>
+  Date : 2020-05-26 18:29:25 +0000
+
+    switched perltidy to my tastes tapped out more TODO updated Deps (we
+    can move Mojo::JWT::Google out now) updated repo to point to ours
+    began a major refactor
+
+    cleaning up cruft from Client::Discovery now
+
+    and testing it more sanely now, too
+
+    began cleaning up examples (oh goodness gracious) started sprinkling
+    my own TODOs
+
+    Client::Discover -
+
+    added 403 error handling, and don't bother using header otherwise
+
+    refactored the cache to be its own function
+
+    removed a few stupid tests
+
+    made some test tools for NON-stupid testing
+
+    basically, beginning major league refactor 
+
+  Change: 4b0c6986816eac068d5de9e995ea116b1562f1dc
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-12-25 18:46:52 +0000
+
+    started TODO file 
+
+  Change: fcb1128098306b1396c2e28ae48c40e8c0e47a9a
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-11-23 21:28:22 +0000
+
+    fixed up missing important test files 
+
+  Change: 85633e80aadc477012a6f8e6a26116f047997cc3
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-11-23 20:46:28 +0000
+
+    began making notes for changes and tapping out the service account
+    business 
+
+  Change: a332dd9978e0cd8b6011a8014686b3303fc3948e
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-11-23 20:19:54 +0000
+
+    ignore vim temp files 
+
+  Change: 55b4d8512e23140d43824bd70f72e55a8d7cc46c
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-11-22 11:38:25 +0000
+
+    Fixed up JWT for dzil 
+
+  Change: 47536b01062f91d18ebc6eb418c9e906fd1901fb
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-11-22 00:29:46 +0000
+
+    Made service accounts work 
+
+  Change: 872919c7655999c94b5460c9be33941a3b79cbf6
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2019-11-22 00:15:29 +0000
+
+    cleaned up tests more 
+
+  Change: 602eeab861984d5af5a06f55230ab72d5cd994ef
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-12-16 21:35:28 +0000
+
+    Added test for global param support 
+
+  Change: 2bb1f8e74a85b9a33cb6317dd42d8e73ee19c2e3
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-12-16 00:19:13 +0000
+
+    Added global parameters like 'fields' support 
+
+  Change: 1da26c46f5904a14c8f06485510be7c682515e02
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-12-15 21:36:33 +0000
+
+    squashed bug introduced and added test 
+
+  Change: 480f98c0a29a699a5c46e9f517ed6f2d6cdd0599
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-12-13 22:54:38 +0000
+
+    Fixed perlcritic complaint 
+
+  Change: e61c23b4a69a80a88186483a77ad8d1425677459
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-12-13 20:20:43 +0000
+
+    Added tests and docs for new feature 
+
+  Change: a7d093be5958539bf2f3d2abfcdb95e3a703e44a
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-12-12 08:50:55 +0000
+
+    Added DWIM-y processing of param names for {+params} 
+
+  Change: 2d9cce252e87b702374b0fa93743031934512652
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-18 06:06:40 +0000
+
+    Merge branch 'master' of
+    https://github.com/pscott-au/WebService-GoogleAPI-Client 
+
+  Change: a909447d38b1db761840a44113705ac2fb4f2505
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-18 06:06:32 +0000
+
+    service account example
+
+    TODO: incorporate into user agent. 
+
+  Change: 44f4339b994fe47f4fccab809b5bc1f268907901
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-14 20:08:57 +0000
+
+    CPANEL RELEASE V0.21
+
+    Includes refactored api_query including the ulimate inclusion of
+    parameters specified with location='query' to be added as GET params.
+    Performed an audit of existing endpoints to cofirm that can always
+    assume ok to append the '?'. The other hackable options remain
+    available but default behavious is now working thanks to @rabbiveesh 
+
+  Change: 5cb1eb7a15ae90cb6d2d3e140c5fadb90d834e0b
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-14 09:02:29 +0000
+
+    update sheets example 
+
+  Change: 84cc82731332aba665a8a1698e8ea7611cb86af8
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-14 08:59:00 +0000
+
+    Refactor api_query including path parameter interpolation.
+
+    To simplify user fixes to broken API Discovery Spec - user can
+    provide a 'path' parameter which will be interpolated with the
+    %options values. This is necessary for example with the sheets api
+    covered in #11 and #12 
+
+  Change: f875fe24c8539e9429e0f4fd7041452b655adeb7
+  Author: Peter Scott <peter@pscott.com.au>
+  Date : 2018-11-13 23:53:53 +0000
+
+    Merge pull request #12 from rabbiveesh/query
+
+    Moved query params to URL, related cleanup, solves Issue #11 
+
+  Change: d63cf87917bb2ea19ef31c89ac85552319e9318c
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 16:07:30 +0000
+
+    Merge branch 'master' of
+    https://github.com/pscott-au/WebService-GoogleAPI-Client 
+
+  Change: 5c67d16a975a9852a5f28f999bdc800fe95b26e8
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 16:07:25 +0000
+
+    Added cb_method_discovery_modify to Client->api_query method
+
+    Workaround for #11 issues in API specification 
+
+  Change: c5172bab98848a940eb97138baab8503bf26f685
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 13:24:40 +0000
+
+    simplify 
+
+  Change: d2044d49e260f7fcb825e52989b39903a4b80380
+  Author: LapVeesh <rabbiveesh@gmail.com>
+  Date : 2018-11-12 20:59:14 +0000
+
+    Moved query params to URL, related cleanup 
+
+  Change: 93a346cdbbff1e7d415f541a7120ee4041c367ca
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 02:19:33 +0000
+
+    REmove META.yml 
+
+  Change: 016fdbcfe9ee2c7c0bfab7ebfeeb4a1840641d00
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 02:18:56 +0000
+
+    meta.yml ignore 
+
+  Change: 6a763b233d838af44ce61df987cd3cbc70ac95bf
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 02:17:39 +0000
+
+    re-introduce META.yml 
+
+  Change: 75f29697520362cf0987e370cdbe72dee0df584c
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 01:13:06 +0000
+
+    add META.yml
+
+    removed from gitignore as indicated by Kwalitee experimental issue. 
+
+  Change: fb4624cbb553a36641949bfe08403715ad25728a
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 01:07:00 +0000
+
+    remove broken badge 
+
+  Change: 455a33174116c07b56f27e589c60be4a5914ecb6
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 01:02:21 +0000
+
+    add badges 
+
+  Change: 794947af17503b8ac54d370f2831c14717641776
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 00:39:38 +0000
+
+    Merge branch 'master' of
+    https://github.com/pscott-au/WebService-GoogleAPI-Client 
+
+  Change: 75c1dbc921372f560b6da7d17634b2bee066711d
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-13 00:39:35 +0000
+
+    geocoding change 
+
+  Change: c9a130f4de3b2ddc3f89d6ab289aa3ca90cdc1e9
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-12 18:45:52 +0000
+
+    Merge branch 'master' of
+    https://github.com/pscott-au/WebService-GoogleAPI-Client 
+
+  Change: 88a0a492b8d0041cb4fe4b17a870de76830d60f7
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-12 18:44:38 +0000
+
+    DNS and DRIVE examples + bump version 0.20.1 
+
+  Change: 619d090a1be39f8dedd1e5af6482ca21736e958a
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-11 21:24:20 +0000
+
+    added initial version of API explorer 
+
+  Change: 0103b59539e8231d86513c66ee58ae40878b83a7
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-08 13:19:56 +0000
+
+    CPAN RELEASE 0.20 - Fix More pp errors in Libs
+
+    * Similar to previous pp not included in goauth I have also not
+    explictly included pp in the libraries * Also added cloud_dns.pl
+    example 
+
+  Change: b305d7813c5c48f44a125dcb115d8d3f52e879fe
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-07 09:19:41 +0000
+
+    CPAN RELEASE 0.19
+
+    Fix for #9 and version bump to deploy to CPAN 
+
+  Change: efe8a90c5b68f6989ea0717bce21cfd5b7ea10fd
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-07 08:30:52 +0000
+
+    #9 as reported by rabbiveesh
+
+    Previous transition to using Data::Dump from Data::Dumper with
+    "app->log->info( "App got new tokens: " . pp $tokens);" in goauth was
+    breaking 
+
+  Change: de9a523023a051243d3795d816d0c2137a9b4426
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-06 18:12:08 +0000
+
+    typo 
+
+  Change: 7bac2f8fe641aa31507e7bdd6c1bad1bd7803732
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-11-05 16:33:47 +0000
+
+    CPAN RELEASE 0.18
+
+    *refactor GET path parameter interpolation to allow {+varname} as
+    used in persons API *came across issue while creating people_api.pl
+    example in which people.people.connections.list had path with
+    {+resourceName} which was not being interpolated. 
+
+  Change: 6842cf46ed39e64fc0a251d0cf62628f087c9b09
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-04 16:37:57 +0000
+
+    Add Geocoding and Places example
+
+    NB - isn't discoverable or accessible through OAUTH access control
+    but may be of interest to see how can still use the library UserAgent
+    to construct API requests. 
+
+  Change: c83b36632f57e9b730dc581efcefaa2d89ca8af9
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-03 10:46:20 +0000
+
+    code before strictures test fail fix 
+
+  Change: 0631af032e940b964992b00bfd6dd183e61f7524
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-03 10:44:31 +0000
+
+    useragent accepts options=>$FILE_CONTENT to perform data post like
+    curl --data-binary
+
+    needed to perform bucket file upload in
+    cloudstorage_bucket_example.pl also replaced Data::Dumper with
+    Data::Dump pp bumped version to 0.17.1 
+
+  Change: 5e97a95d7f7bdebfd9d07266168ccbdb28430f0f
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-02 18:16:33 +0000
+
+    CPAN RELEASE 0.17 
+
+  Change: 1dc5085736e6428e0edc830f6c04bf6b36200bb3
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-02 17:19:00 +0000
+
+    Improve API Version handling
+
+    better support for use of api format including versions such as
+    'storage:v1beta2' , 'storage:v1.objects.insert' etc currently working
+    through cloudstorage .. apeears the API spec deosn't 100% describe
+    the upload requirements .. investigation continue 
+
+  Change: a50410ff0931f7ccbe1f2b6bce6fe0271fdf1e37
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-01 19:09:59 +0000
+
+    removed switch breaking Travis - replaced if elsif else
+
+    looked at modern options for switch ..
+    https://www.effectiveperlprogramming.com/2017/12/beware-of-the-remova
+    l-of-when-in-perl-v5-28/ .. but looked too hard for something so
+    small - just replaced with if else 
+
+  Change: ad0a5df713eaf96b38b27c73ac43fb51f6538cfe
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-01 18:48:15 +0000
+
+    Cloud Bucket Example and Improve returned discovery data
+
+    Recursively replace discovery structure '$ref' lookups with their
+    actual structure to give a full and complete description for
+    get_api_discovery_for_api_id and
+    extract_method_discovery_detail_from_api_spec Added starter
+    cloudstorage bucket example. Added ability to pass headers hashref
+    into api_query to allow MIME headers Client PM POD refinement fixed
+    spelling method name api_version_urls 
+
+  Change: e8011fc7cd2114b59753968dc4b80f6dee808017
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-11-01 04:00:53 +0000
+
+    update README.md 
+
+  Change: 489a39cb61a1701a7af6071c9d815cd9a786d155
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-10-31 17:11:00 +0000
+
+    Added translation API example and cleaned some POD 
+
+  Change: 9a5dd05e600a0e9ebc0c4702277cb5d279f17c36
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-10-30 23:42:11 +0000
+
+    update email in sample snippet 
+
+  Change: 183228261985333bbd3ac75135e851610b218bb4
+  Author: Peter Scott <peter@computerpros.com.au>
+  Date : 2018-10-30 22:43:09 +0000
+
+    update travis coverage 
+
+  Change: d5332d5f7c7fd3cde71fe906d98b5489a5c5baaa
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-10-28 09:48:26 +0000
+
+    V16 with minimum Mojolicious Version 7.12 
+
+  Change: 6960a6b30a9eef4048856be8efafbbd41d038af4
+  Author: Peter Scott <peter@shotgundriver.com>
+  Date : 2018-10-28 04:21:08 +0000
+
+    bump version to 0.15.1 and add cpanfile to build 
+
+================================================
+Plus 3 releases after 2020-10-22 00:00:00 +0000.
+================================================

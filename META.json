@@ -1,0 +1,92 @@
+{
+   "abstract" : "Google API Discovery and SDK",
+   "author" : [
+      "Peter Scott <localshop@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 6.017, CPAN::Meta::Converter version 2.150010",
+   "license" : [
+      "apache_2_0"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : 2
+   },
+   "name" : "WebService-GoogleAPI-Client",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0"
+         }
+      },
+      "develop" : {
+         "requires" : {
+            "Test::Perl::Critic" : "0"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "CHI" : "0",
+            "Carp" : "0",
+            "Config::JSON" : "0",
+            "Crypt::JWT" : "0",
+            "Data::Dump" : "0",
+            "Exporter::Shiny" : "0",
+            "Hash::Slice" : "0",
+            "IO::Socket::SSL" : "2.06",
+            "List::SomeUtils" : "0",
+            "List::Util" : "1.45",
+            "Mojo::Base" : "0",
+            "Mojo::Collection" : "0",
+            "Mojo::File" : "0",
+            "Mojo::JSON" : "0",
+            "Mojo::JWT" : "0",
+            "Mojo::JWT::Google" : "0.11",
+            "Mojo::UserAgent" : "0",
+            "Mojo::Util" : "0",
+            "Mojolicious" : "8.30",
+            "Mojolicious::Lite" : "0",
+            "Mojolicious::Plugin::OAuth2" : "1.5",
+            "Moo" : "2.00",
+            "MooX::Singleton" : "0",
+            "Net::EmptyPort" : "0",
+            "Path::Class" : "0",
+            "Tie::File" : "0",
+            "feature" : "0",
+            "perl" : "v5.14.4",
+            "strictures" : "0",
+            "utf8" : "0",
+            "vars" : "0"
+         }
+      },
+      "test" : {
+         "requires" : {
+            "Cwd" : "0",
+            "Exporter::Shiny" : "0",
+            "File::Basename" : "0",
+            "Test2::V0" : "0",
+            "Test::More" : "0",
+            "lib" : "0",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/pscott-au/WebService-GoogleAPI-Client/issues"
+      },
+      "homepage" : "https://pscott-au.github.io/WebService-GoogleAPI-Client/",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/pscott-au/WebService-GoogleAPI-Client.git",
+         "web" : "https://github.com/pscott-au/WebService-GoogleAPI-Client"
+      }
+   },
+   "version" : "0.22",
+   "x_generated_by_perl" : "v5.32.0",
+   "x_serialization_backend" : "Cpanel::JSON::XS version 4.25",
+   "x_spdx_expression" : "Apache-2.0"
+}
+
